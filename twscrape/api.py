@@ -162,7 +162,7 @@ class API:
         kv = {
             "rawQuery": q,
             "count": 20,
-            "product": "Latest",
+            "product": "Top",
             "querySource": "typed_query",
             "withGrokTranslatedBio": False,
             **(kv or {}),
